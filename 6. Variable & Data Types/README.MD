@@ -8,3 +8,5 @@
 🎗️ CalculateSum \
 🎗️ Product \
 🎗️ AreaOfCircle \
+🎗️ TypeConversion \
+🎗️ TypeCasting \
