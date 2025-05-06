@@ -4,4 +4,5 @@
 
 🎗️ JavaBasics \
 🎗️ Variable \
-🎗️ Input
+🎗️ Input \
+🎗️ CalculateSum
