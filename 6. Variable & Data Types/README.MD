@@ -1,8 +1,9 @@
-# 06 - Variables & DataTypes
+# 06 - Variables & Data Types
 
 ## Sequence for learning :)
 
 🎗️ JavaBasics \
 🎗️ Variable \
 🎗️ Input \
-🎗️ CalculateSum
+🎗️ CalculateSum \
+🎗️ Product \
