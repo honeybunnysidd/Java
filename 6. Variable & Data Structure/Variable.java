@@ -1,6 +1,7 @@
 
 public class Variable{
     public static void main(String args[]){
+
 //Variables in Java--------------------------------
         int a = 10;
         int b = 27;
@@ -9,7 +10,6 @@ public class Variable{
 //Change value of variable
         b =42;
         System.out.println("Sum = "+ (a+b));
-
 
 // Data Types in Java--------------------------------
 
@@ -47,6 +47,15 @@ public class Variable{
     // long     -> 8byte -> [ int << long ]
     // float    -> 4byte -> [ _._ ]
     // double   -> 8byte -> [float << double]
-    
+
+// Comments in java --------------------------------
+    // Hey! I am Siddhartha        ->Single line Comment (//)
+
+    /*                             -> Multiple line Comment                           
+    Hey!
+    I am
+    Siddhartha
+    */
+
     }
 }
