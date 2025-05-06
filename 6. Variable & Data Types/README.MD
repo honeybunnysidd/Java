@@ -10,3 +10,4 @@
 🎗️ AreaOfCircle \
 🎗️ TypeConversion \
 🎗️ TypeCasting \
+🎗️ TypePromotion \
