@@ -2,7 +2,7 @@
 
 ## Sequence for learning :)
 
-🎗️ If Else \
+🎗️ IfElse \
 🎗️ TernaryOperator \
 🎗️ Assignment
 
