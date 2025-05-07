@@ -14,5 +14,3 @@
 🎗️ Assignment
 
 ---
-
-### Follow from Top to Bottom.
