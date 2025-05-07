@@ -3,5 +3,6 @@
 ## Sequence for learning :)
 
 🎗️ Operators \
+🎗️ Assignment
 
 ---
