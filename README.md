@@ -7,7 +7,7 @@
 🎗️ 03 - Prerequisites \
 🎗️ 04 - Flowcharts & Pseudocode \
 🎗️ 05 - Live Mentorship Sessions \
-🎗️ 06 - Variables & DataTypes \
+🎗️ 06 - Variables & Data Types \
 🎗️ 07 - Operators \
 🎗️ 08 - Conditional Statement \
 🎗️ 09 - Loops (Flow Control) \
