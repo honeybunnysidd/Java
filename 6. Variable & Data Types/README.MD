@@ -15,4 +15,4 @@
 
 ---
 
-### Follow according to file name from Top to Bottom.
+### Follow from Top to Bottom.
