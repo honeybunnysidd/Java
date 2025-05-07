@@ -4,6 +4,7 @@
 
 🎗️ IfElse \
 🎗️ TernaryOperator \
+🎗️ SwitchStatement \
 🎗️ Assignment
 
 ---
