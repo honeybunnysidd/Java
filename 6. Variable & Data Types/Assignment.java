@@ -74,9 +74,10 @@ public class Assignment {
     */
 
 // Question 5: (Advanced) Will the following statement give any error in Java?
-    
+    /*
     int $ = 27;  //Valid
     System.out.println("int $ = 27 is valid in Java");
+    */
 
     }
 }
