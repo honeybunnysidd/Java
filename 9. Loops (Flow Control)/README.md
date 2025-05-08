@@ -1,4 +1,4 @@
-# 08 - Conditional Statement/README.md
+# 09 - Loops (Flow Control)
 
 ## Sequence for learning :)
 
