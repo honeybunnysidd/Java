@@ -195,5 +195,31 @@ public class Loops {
     scan.close();
     */
 
+// Check if a number is Prime or Not.
+    /*
+    Scanner scan = new Scanner(System.in);
+
+    System.out.print("Enter a positive number : ");
+    int number = scan.nextInt();
+
+    if(number==2){
+    System.out.print(number + " is prime");
+    }else {
+        boolean isPrime = true;
+        for(int i =2; i<= Math.sqrt(number); i++){
+            if(number % i ==0){
+                System.out.println(number + " is not Prime");
+                isPrime = false;
+                break;
+            }
+
+        }
+            if(isPrime){
+                System.out.println(number + " is Prime number");
+            }
+    }
+    */
+
+
     }
 }
