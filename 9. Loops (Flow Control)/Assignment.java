@@ -66,6 +66,7 @@ public class Assignment {
     for(int i=1; i<=10; i++){
         System.out.println(number + " * " + i +" = " + (number*i));
     }
+    scan.close();
     */
 
     }
