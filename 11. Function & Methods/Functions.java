@@ -45,6 +45,17 @@ public class Functions{
     }
    }
 
+   //Binomial Coefficient
+   public static int binomial(int n, int r){
+    int nFact = factorial(n);
+    int rFact = factorial(r);
+    int n_r_Fact = factorial(n-r);
+
+    int binomialCofficient = nFact/ (rFact * n_r_Fact);
+    return binomialCofficient;
+
+   }
+
     public static void main(String arg[]){
         
         helloDev();     //Call the function
@@ -76,6 +87,11 @@ public class Functions{
         int factorial = factorial(n);
         System.out.print(n+"! = " + factorial);
         */
+
+       //Binomial Coefficient
+       /*
+       System.out.println(binomial(7,5)); //21
+       */
 
     }
 }
