@@ -3,6 +3,6 @@
 ## Sequence for learning :)
 
 🎗️ NestedLoops \
-🎗️ Assignment
+🎗️ HalfPyramid
 
 ---
