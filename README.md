@@ -12,7 +12,7 @@
 🎗️ 08 - Conditional Statement \
 🎗️ 09 - Loops (Flow Control) \
 🎗️ 10 - Patterns (Part-I) \
-🎗️ 11 - Function & Methods
+🎗️ 11 - Function & Methods \
 🎗️ 12 - Pattern Advanced (Part - II)
 
 ---
