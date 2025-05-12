@@ -52,15 +52,28 @@ public class Overloading {
 
     //Convert from Binary to Decimal
     public static void binaryToDecimal(int binary){
-        int decimal = 0;
+        int decimal = 0, copy = binary;
         for(int i=0; binary>0; i++){
 
             int rem = binary % 10;
             decimal += rem * (int) (Math.pow(2,i));
             binary /= 10;
         }
-        System.out.println("Decimal = " + decimal);
+        System.out.println("Binary " + copy + " to Decimal = " + decimal);
     }
+
+    //Convert from Decimal to Binary
+    public static void decimalToBinary(int decimal){
+        int binary = 0, copy = decimal;
+
+        for(int i=1; decimal>0; i*=10){
+            int rem = decimal % 2;
+            binary += i*rem;
+            decimal /= 2;
+        }
+        System.out.println("Decimal " + copy + " to Binary = " + binary);
+    }
+
 
     
     public static void main(String args[]) {
@@ -90,7 +103,11 @@ public class Overloading {
         //printPrime(50);
 
         //Convert from Binary to Decimal
-        binaryToDecimal(1000);
+        binaryToDecimal(111);
+
+        //Convert from Decimal to Binary
+        decimalToBinary(7);
+
 
 
     }
