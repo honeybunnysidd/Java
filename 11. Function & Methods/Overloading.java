@@ -103,10 +103,10 @@ public class Overloading {
         //printPrime(50);
 
         //Convert from Binary to Decimal
-        binaryToDecimal(111);
+        //binaryToDecimal(111);
 
         //Convert from Decimal to Binary
-        decimalToBinary(7);
+        //decimalToBinary(7);
 
 
 
