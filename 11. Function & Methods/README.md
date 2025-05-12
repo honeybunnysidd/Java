@@ -4,7 +4,6 @@
 
 🎗️ Functions \
 🎗️ Overloading \
-🎗️ Scope \
 🎗️ Assignment
 
 ---
