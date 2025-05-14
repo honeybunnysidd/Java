@@ -53,6 +53,64 @@ public class Pattern{
         }
     }
 
+    //0-1 Triangle
+    public static void ZeroOneTriangle(int rows){
+        //outer loop
+        for(int i=1; i<=rows; i++){
+            //inner loop
+            for(int j=1; j<=i; j++){
+                //What to print
+                if((i+j) %2 ==0){
+                    System.out.print("0 ");
+                }else{
+                    System.out.print("1 ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    //Butterfly Pattern
+    public static void butterfly(int rows){
+        //outer loop
+        for(int i=1; i<=rows; i++){
+            //inner loop
+            //Star
+            for(int j=1; j<=i; j++){
+                System.out.print("* ");
+            }
+            //Space
+            for(int j=1; j<=2*(rows-i); j++){
+                System.out.print("  ");
+            }
+            //Star
+            for(int j=1; j<=i; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+         //outer loop
+        for(int i=rows; i>=1; i--){
+            //inner loop
+            //Star
+            for(int j=1; j<=i; j++){
+                System.out.print("* ");
+            }
+            //Space
+            for(int j=1; j<=2*(rows-i); j++){
+                System.out.print("  ");
+            }
+            //Star
+            for(int j=1; j<=i; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+
+    }
+
         
     public static void main(String args[]){
 
@@ -66,7 +124,13 @@ public class Pattern{
         // invHalfPyramidNumber(7);
 
         //Floyd's Triangle
-        floydTriangle(5);
+        //floydTriangle(5);
+
+        //0-1 Triangle
+        //ZeroOneTriangle(5);
+
+        //Butterfly Pattern
+        butterfly(4);
        
     }
 }
