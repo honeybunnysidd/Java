@@ -107,8 +107,19 @@ public class Pattern{
             }
             System.out.println();
         }
-
-
+    }
+    
+    //Solid Rhombus
+    public static void solidRhombus(int rows){
+        for(int i=1; i<=rows; i++){
+            for(int j=1; j<=(rows-i); j++){
+                System.out.print("  ");
+            }
+            for(int j=1; j<=rows; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 
         
@@ -130,7 +141,10 @@ public class Pattern{
         //ZeroOneTriangle(5);
 
         //Butterfly Pattern
-        butterfly(4);
+        //butterfly(4);
+
+        //Solid Rhombus
+        solidRhombus(5);
        
     }
 }
