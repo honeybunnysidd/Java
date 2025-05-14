@@ -38,6 +38,21 @@ public class Pattern{
             System.out.println();
         }
     }
+
+    //Floyd's Triangle
+    public static void floydTringle(int rows){
+        int number = 1;
+        //outer loop
+        for(int i=1; i<=rows; i++){
+            //inner loop
+            for(int j=1; j<=i; j++){
+                System.out.print(number + "  ");
+                number++;
+            }
+            System.out.println();
+        }
+    }
+
         
     public static void main(String args[]){
 
@@ -48,7 +63,10 @@ public class Pattern{
         //invHalfPyramid(5);
 
         //Inverted Half-Pyramid with Numbers
-        //invHalfPyramidNumber(7);
+        // invHalfPyramidNumber(7);
+
+        //Floyd's Triangle
+        floydTringle(5);
        
     }
 }
