@@ -122,6 +122,26 @@ public class Pattern{
         }
     }
 
+    //Hollow Rhombus
+    public static void hollowRhombus(int rows){
+        //outer loop
+        for(int i=1; i<=rows; i++){
+            //spaces
+            for(int j=1; j<=(rows-i); j++){
+                System.out.print("  ");
+            }
+            //stars & spaces
+            for(int j=1; j<=rows; j++){
+                if(i==1 || j==1 || i==rows || j==rows){
+                    System.out.print("* ");
+                }else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
         
     public static void main(String args[]){
 
@@ -144,7 +164,10 @@ public class Pattern{
         //butterfly(4);
 
         //Solid Rhombus
-        solidRhombus(5);
+        //solidRhombus(5);
+
+        //Hollow Rhombus
+        //hollowRhombus(5);
        
     }
 }
