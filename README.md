@@ -13,6 +13,9 @@
 🎗️ 09 - Loops (Flow Control) \
 🎗️ 10 - Patterns (Part-I) \
 🎗️ 11 - Function & Methods \
-🎗️ 12 - Pattern Advanced (Part - II)
+🎗️ 12 - Pattern Advanced (Part - II) \
+🎗️ 13 - Arrays I & II \
+🎗️ 14 - Basic Sorting Algorithm \
+🎗️ 15 - 2D Arrays
 
 ---
