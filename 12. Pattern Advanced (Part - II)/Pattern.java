@@ -142,6 +142,38 @@ public class Pattern{
         }
     }
 
+    //Diamond Pattern
+    public static void diamond(int rows){
+        //outer loop
+        for(int i=1; i<=rows; i++){
+
+            //spaces
+            for(int j=1; j<=rows-i; j++){
+                System.out.print("  ");
+            }
+            //stars
+            for(int j=1; j<=(2*i-1); j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+
+        //2nd Half
+        for(int i=rows; i>=1; i--){
+
+            //spaces
+            for(int j=1; j<=rows-i; j++){
+                System.out.print("  ");
+            }
+            //stars
+            for(int j=1; j<=(2*i-1); j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
         
     public static void main(String args[]){
 
@@ -168,6 +200,10 @@ public class Pattern{
 
         //Hollow Rhombus
         //hollowRhombus(5);
+
+        //Diamond Pattern
+        //diamond(5);
+        
        
     }
 }
