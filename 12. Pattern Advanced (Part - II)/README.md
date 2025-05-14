@@ -2,7 +2,4 @@
 
 ## Sequence for learning :)
 
-🎗️ Pattern \
-🎗️ Assignment
-
----
+## 🎗️ Pattern
