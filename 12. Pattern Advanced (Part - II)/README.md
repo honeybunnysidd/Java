@@ -2,4 +2,6 @@
 
 ## Sequence for learning :)
 
-## 🎗️ Pattern
+🎗️ Pattern
+
+---
