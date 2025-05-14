@@ -40,7 +40,7 @@ public class Pattern{
     }
 
     //Floyd's Triangle
-    public static void floydTringle(int rows){
+    public static void floydTriangle(int rows){
         int number = 1;
         //outer loop
         for(int i=1; i<=rows; i++){
@@ -48,7 +48,7 @@ public class Pattern{
             for(int j=1; j<=i; j++){
                 System.out.print(number + "  ");
                 number++;
-            }
+            } 
             System.out.println();
         }
     }
@@ -66,7 +66,7 @@ public class Pattern{
         // invHalfPyramidNumber(7);
 
         //Floyd's Triangle
-        floydTringle(5);
+        floydTriangle(5);
        
     }
 }
