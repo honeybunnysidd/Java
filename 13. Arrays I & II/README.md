@@ -3,6 +3,7 @@
 ## Sequence for learning :)
 
 🎗️ Arrays \
+🎗️ LinearSearch \
 🎗️ Assignment
 
 ---
