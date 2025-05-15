@@ -4,6 +4,7 @@
 
 🎗️ Arrays \
 🎗️ LinearSearch \
+🎗️ BinarySearch \
 🎗️ Assignment
 
 ---
