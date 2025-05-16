@@ -5,6 +5,7 @@
 🎗️ Arrays \
 🎗️ LinearSearch \
 🎗️ BinarySearch \
+🎗️ MaxSubArray \
 🎗️ Assignment
 
 ---
