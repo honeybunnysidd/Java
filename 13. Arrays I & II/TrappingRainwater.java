@@ -19,11 +19,11 @@ public class TrappingRainwater{
             rightMax[i] = Math.max(height[i], rightMax[i+1]);
         }
 
-        //Water level = min(leftMax, rightMax)
-        //TrapWater = water level - height
         int trapWater = 0;
         for(int i=0; i<height.length; i++){
+            //Water level = min(leftMax, rightMax)
             int waterLevel = Math.min(leftMax[i],rightMax[i]);
+            //TrapWater = water level - height
             trapWater = trapWater + waterLevel - height[i];
         }
 
