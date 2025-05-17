@@ -27,7 +27,7 @@ public class TrappingRainwater{
             trapWater = trapWater + waterLevel - height[i];
         }
 
-        System.out.println(trapWater);
+        System.out.println("Total Trap Water : " + trapWater);
     }
     public static void main(String args[]){
 
