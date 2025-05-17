@@ -6,6 +6,7 @@
 🎗️ LinearSearch \
 🎗️ BinarySearch \
 🎗️ MaxSubArray \
+🎗️ TrappingRainwater \
 🎗️ Assignment
 
 ---
