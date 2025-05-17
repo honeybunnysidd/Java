@@ -18,6 +18,7 @@ public class MaxSubArray{
         System.out.println("The maximum sum of sub array is : "+ maxSum);
     }
 
+    //Max Sub Array Sum -- Method II (Prefix Sum Approach)
     public static void  calculatePrefix(int arr[]){
         int prefixSum[] = new int[arr.length];
 
@@ -36,19 +37,51 @@ public class MaxSubArray{
                 maxSum = sum;
             }
         }
-        System.out.println("The maximum sum of sub array is : "+ maxSum);  
+        System.out.println("The maximum sum of sub array is : "+ maxSum);
     }
 
-    //Max Sub Array Sum -- Method II (Prefix Sum Approach)
+    //Max Sub Array Sum -- Method III (Kadane Algorithm)
+    public static void kadaneAlgo(int arr[]){
+        int curSum = 0;
+        int maxSum = Integer.MIN_VALUE;
+
+        //Special case - All element are negative of given array
+        for(int i=0; i<arr.length; i++){
+            maxSum = Math.max(maxSum,arr[i]);
+        }
+        if(maxSum<0){
+            System.out.println("Max Sum : " + maxSum);
+            return;
+        }
+
+        // Element Negative and positive
+        for(int i=0; i<arr.length; i++){
+            curSum += arr[i];
+            if(curSum<0){
+                curSum = 0;
+            }
+            if(curSum>maxSum){
+                maxSum = curSum;
+            }
+        }
+        System.out.println("Max Sum : " + maxSum);
+
+    }
+
     public static void main(String args[]){
 
-        int number[]= {1, -2, 6, -1, 3};
+        // int number[]= {1, -2, 6, -1, 3};
 
         //Method I (Brute Force)
         //maxSubArray(number);
 
         //Method II (Prefix Sum Approach)
-        calculatePrefix(number);
+        //calculatePrefix(number);
 
-    }  
+        //Method III (Kadane Algorithm) (if Sum  = negative(x) so we consider it 0)
+        // int number[] = {-2,-3,4,-1,-2,1,5,-3};
+        // int number[] = {-10,-2,-3,-4};  //Special case(all elements -ve)
+        kadaneAlgo(number);
+
+    }
 }
