@@ -81,7 +81,7 @@ public class MaxSubArray{
         //Method III (Kadane Algorithm) (if Sum  = negative(x) so we consider it 0)
         // int number[] = {-2,-3,4,-1,-2,1,5,-3};
         // int number[] = {-10,-2,-3,-4};  //Special case(all elements -ve)
-        kadaneAlgo(number);
+        //kadaneAlgo(number);
 
     }
 }
