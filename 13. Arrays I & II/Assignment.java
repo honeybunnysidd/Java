@@ -27,12 +27,40 @@ public class Assignment{
         return the index of target if it is in nums, or -1 if it is not in nums.
         You must write an algorithm with O(log n) runtime complexity
     */
+   public static int returnTarget(int arr[], int target){
+
+    //Binary Serach because array is sort
+    int start = 0, end = arr.length-1;
+
+    while(start<=end){
+        int mid = (start + end)/2;
+
+        if(arr[mid] == target){
+            return mid;
+        }
+        if(arr[mid]> target){
+            end = mid -1;
+        }else{
+            start = mid+1;
+        }
+    }
+    return -1;    
+   }
 
     public static void main(String args[]){
 
         //Question 1:
-        int nums[] = {1,2,3,1};
-        System.out.println(containsDuplicate(nums));
+            //int nums[] = {1,2,3,1};
+            //System.out.println(containsDuplicate(nums));
+
+        //Question 2:
+            //int nums[] = {4, 5, 6, 7, 0, 1, 2};
+            //int target = 7;
+            //System.out.println(returnTarget(nums, target));
+
+        //Question 2:
+
+
 
     }
 }
