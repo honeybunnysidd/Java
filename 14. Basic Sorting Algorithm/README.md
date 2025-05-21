@@ -2,7 +2,8 @@
 
 ## Sequence for learning :)
 
-🎗️ BuySellStock \
+🎗️ BubbleSort \
+🎗️ SelectionSort \
 🎗️ Assignment
 
 ---
