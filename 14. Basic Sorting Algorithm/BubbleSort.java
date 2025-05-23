@@ -1,19 +1,6 @@
 public class BubbleSort{
 
-    // Print array ---
-    public static void printArray(int arr[]) {
-        System.out.print("[");
-        for (int i = 0; i < arr.length; i++) {
-            if (i < arr.length - 1) {
-                System.out.print(arr[i] + ",");
-            } else {
-                System.out.print(arr[i]);
-            }
-        }
-        System.out.println("]");
-    }
-
-    public static void main(String args[]){
+   public static void main(String args[]){
 
         //Sorting is the process of rearranging a collection of objects in a specific order.
 
@@ -48,5 +35,18 @@ public class BubbleSort{
             }
 
         }
+    }
+
+    // Print array ---
+    public static void printArray(int arr[]) {
+        System.out.print("[");
+        for (int i = 0; i < arr.length; i++) {
+            if (i < arr.length - 1) {
+                System.out.print(arr[i] + ",");
+            } else {
+                System.out.print(arr[i]);
+            }
+        }
+        System.out.println("]");
     }
 }
