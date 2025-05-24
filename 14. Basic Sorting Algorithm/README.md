@@ -7,6 +7,7 @@ Dry Run ke bina kaam nhi chlega...
 🎗️ BubbleSort \
 🎗️ SelectionSort \
 🎗️ InsertionSort \
+🎗️ InbuiltSort \
 🎗️ Assignment
 
 ---
