@@ -8,6 +8,7 @@ Dry Run ke bina kaam nhi chlega...
 🎗️ SelectionSort \
 🎗️ InsertionSort \
 🎗️ InbuiltSort \
+🎗️ CountingSort \
 🎗️ Assignment
 
 ---
