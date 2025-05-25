@@ -22,7 +22,7 @@ public class CountingSort{
             freqArr[arr[i]]++;
         }
 
-        //Sorting
+        //Insertion based on its frequency
         int j=0;
         for(int i=0; i<freqArr.length; i++){
             while(freqArr[i] >0){
