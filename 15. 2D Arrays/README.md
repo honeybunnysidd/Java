@@ -2,8 +2,9 @@
 
 ## Sequence for learning :)
 
-🎗️ 2DArray \
+🎗️ Two_D_Array \
 🎗️ SprialMatrix \
+🎗️ DiagonalSum \
 🎗️ Assignment
 
 ---
