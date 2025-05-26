@@ -5,6 +5,7 @@
 🎗️ Two_D_Array \
 🎗️ SprialMatrix \
 🎗️ DiagonalSum \
+🎗️ SearchSortMatrix \
 🎗️ Assignment
 
 ---
