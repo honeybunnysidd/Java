@@ -16,6 +16,9 @@
 🎗️ 12 - Pattern Advanced (Part - II) \
 🎗️ 13 - Arrays I & II \
 🎗️ 14 - Basic Sorting Algorithm \
-🎗️ 15 - 2D Arrays
+🎗️ 15 - 2D Arrays \
+🎗️ 16 - Strings \
+🎗️ 17 - Bit Manipulation \
+🎗️ 18 - OOPS \
 
 ---
