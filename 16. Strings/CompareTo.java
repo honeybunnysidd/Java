@@ -2,7 +2,7 @@ public class CompareTo{
 
     //CompareTo() -> compare 2 string lexicographically.
     public static void main(String args[]){
-        String fruits[] = {"apple", "mango", "zanana"};
+        String fruits[] = {"apple", "mango", "banana"};
 
         String largestLexico = fruits[0]; //let
         for(int i=0; i<fruits.length; i++){
