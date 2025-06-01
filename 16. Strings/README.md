@@ -7,6 +7,7 @@
 🎗️ Displacement \
 🎗️ StringCompare \
 🎗️ SubString \
+🎗️ CompareTo \
 🎗️ Assignment
 
 ---
