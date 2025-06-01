@@ -10,7 +10,6 @@ public class CompareTo{
                 largestLexico = fruits[i];
             }
         }
-
         System.out.println(largestLexico);
     }
 }
