@@ -5,6 +5,8 @@
 🎗️ Strings \
 🎗️ Palindrome \
 🎗️ Displacement \
+🎗️ StringCompare \
+🎗️ SubString \
 🎗️ Assignment
 
 ---
