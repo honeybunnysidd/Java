@@ -8,6 +8,8 @@
 🎗️ StringCompare \
 🎗️ SubString \
 🎗️ CompareTo \
+🎗️ MyStringBuilder \
+🎗️ StringCompression \
 🎗️ Assignment
 
 ---
