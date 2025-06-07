@@ -2,7 +2,7 @@
 
 ## Sequence for learning :)
 
-🎗️ Bit \
+🎗️ Bit_Manipulation \
 🎗️ Assignment
 
 ---
