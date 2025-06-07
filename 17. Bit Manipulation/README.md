@@ -3,6 +3,7 @@
 ## Sequence for learning :)
 
 🎗️ Bit_Manipulation \
+🎗️ EvenOdd \
 🎗️ Assignment
 
 ---
