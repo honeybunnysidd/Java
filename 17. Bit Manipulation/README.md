@@ -4,6 +4,7 @@
 
 🎗️ Bit_Manipulation \
 🎗️ EvenOdd \
+🎗️ GetSet \
 🎗️ Assignment
 
 ---
