@@ -5,13 +5,14 @@ public class GetSet{
 
        System.out.println("Set the bit : " +  setIthBit(10,2));
        
+       System.out.println("Clear the bit : " +  clearIthBit(10,1));
     }
 
     //Get the ith bit
     public static int getIthBit(int n, int i){
         int bitMask = 1<<i;
 
-        if((n& bitMask) == 0){
+        if((n & bitMask) == 0){
             return 0;
         }
         return 1;
@@ -22,6 +23,13 @@ public class GetSet{
         int bitMask = 1<<i;
 
         return n | bitMask ;
+    }
+
+    //Clear the ith bit (means ith value => 0)
+    public static int clearIthBit(int n, int i){
+        int bitMask = ~(1<<i);
+
+        return (n & bitMask) ;
     }
 
 }
