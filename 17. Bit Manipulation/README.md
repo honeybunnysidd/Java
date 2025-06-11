@@ -5,6 +5,9 @@
 🎗️ Bit_Manipulation \
 🎗️ EvenOdd \
 🎗️ GetSet \
+🎗️ PowerOfTwo \
+🎗️ CoutSetBit \
+🎗️ FastExponentiation \
 🎗️ Assignment
 
 ---
