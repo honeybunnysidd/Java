@@ -3,6 +3,7 @@
 ## Sequence for learning :)
 
 🎗️ OOPS \
+🎗️ Encapsulation \
 🎗️ Assignment
 
 ---
