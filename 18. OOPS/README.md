@@ -3,7 +3,9 @@
 ## Sequence for learning :)
 
 🎗️ OOPS \
-🎗️ Encapsulation \
+🎗️ Constructor \
+🎗️ Inheritance \
+🎗️ Polymorphism \
 🎗️ Assignment
 
 ---
