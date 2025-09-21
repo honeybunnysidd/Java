@@ -6,6 +6,8 @@
 🎗️ Constructor \
 🎗️ Inheritance \
 🎗️ Polymorphism \
+🎗️ Abstraction \
+🎗️ Interfaces \
 🎗️ Assignment
 
 ---
